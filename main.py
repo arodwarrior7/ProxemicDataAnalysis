@@ -116,6 +116,8 @@ print('No crowd data all min: ' + str(min_info))
 print('No crowd data all max: ' + str(max_info))
 print('No crowd data all mean_min: ' + str(mean_min_info))
 print('No crowd data all mean_max: ' + str(mean_max_info))
+temnp123 = statistics.stdev((float(i) for i in no_crowd_min_list), mean_min_info)
+print("awefawef: " + str(temnp123))
 # full_mean_info = sum(float(i) for i in no_crowd.full_data_crowd) / len(no_crowd.full_data_crowd)
 # no_crowd.full_data_crowd_all_mean = full_mean_info
 full_mean_first_info = sum(float(i) for i in no_crowd.full_data_crowd[0]) / len(no_crowd.full_data_crowd[0])
